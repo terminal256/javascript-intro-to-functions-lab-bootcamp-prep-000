@@ -15,11 +15,16 @@ function logWhisper(string) {
 }
 
 function lowercaseP(lowercase){
-  lowercase.toLowerCase() === lowercase
+  return lowercase.toLowerCase() === lowercase
+}
+
+function uppercaseP(uppercase){
+  return uppercase.toUpperCase() === uppercase
 }
 
 function sayHiToGrandma(string){
   if(string === "I love you, Grandma."){return "I love you, too."}
-  if()
+  if(uppercaseP(string)){}
+  if(lowercaseP(string)){}
   
 }
